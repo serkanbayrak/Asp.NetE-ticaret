@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style>
+
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Eticaret Admin Girişi</title>
+</head>
+<body>
+
+    <form method="post">
+        <div class="left">
+            @Html.Label("Email")
+        </div>
+        <div class="right">
+            @Html.TextBox("Email")
+        </div>
+        <br />
+        <div class="left">
+            @Html.Label("Şifre")
+        </div>
+        <div class="right">
+            @Html.Password("Password")
+        </div>
+        <br />
+        <div class="row"></div>
+        <button type="submit">Giriş Yap</button>
+    </form>
+</body>
+</html>
